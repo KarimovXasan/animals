@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+    scroll-behavior: smooth;
+}
+
+h1{
+    font-size: 52px; font-weight: 700;
+}
+
+h2{
+    font-size: 42px; font-weight: 600;
+}
+
+h3{
+    font-size: 36px; font-weight: 600;
+}
+
+.container{
+    @apply max-w-1140 mx-auto px-4;
+}
+
+section{
+    margin-top: 40px; margin-bottom: 30px;
+}
